@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #17172b;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    color: #56e0ff;
+}
+
+p {
+    color: #dddded;
+}
+
+canvas {
+    display: block;
+    width: min(800px, 100%);
+    height: auto;
+    margin: 20px auto;
+    background: #090d1b;
+    border: 3px solid #56e0ff;
+    border-radius: 8px;
+}
